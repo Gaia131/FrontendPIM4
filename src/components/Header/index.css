@@ -4,7 +4,7 @@
 }
 
 div{
-    background-color: #244ca0;
+    background-color: #244ca0; 
     border-bottom: 4px solid #f2a71b;
     position: relative;
     width: 100%;
@@ -25,6 +25,3 @@ div{
     top: 12px;
 }
 
-#MENU{
-    background-color: White;
-}
