@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from '../../components/Header';
-import Hamburguer from '../../components/Header/hamburguer';
- 
+import Conteudo from '../../components/Conteudo/Conteudo';
+
 const Home: React.FC = () => {
 
     return (
         <>
         <Header/>
-        <Hamburguer/>
+        <Conteudo>Home</Conteudo>
         </>
     )
 }
