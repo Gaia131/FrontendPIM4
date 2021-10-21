@@ -1,9 +1,8 @@
 import React from 'react';
 import Header from '../../components/Header';
-import './perfil.css';
+import './historico.css';
 
-const Perfil: React.FC = () => {
-
+const Historico: React.FC = () => {
     return (
         <>
         <div>
@@ -14,10 +13,10 @@ const Perfil: React.FC = () => {
             <br/>
             <br/>
             </div>
-            <div><h1 className="titulo">Meu perfil</h1></div>
+            <div><h1 className="titulo">Histórico de reservas</h1></div>
         </div>
         </>
     )
 }
  
-export default Perfil;
+export default Historico;

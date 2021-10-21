@@ -1,13 +1,22 @@
 import React from 'react';
 import Header from '../../components/Header';
-import Conteudo from '../../components/Conteudo/Conteudo';
+import './home.css'
+
 
 const Home: React.FC = () => {
 
     return (
         <>
-        <Header/>
-        <Conteudo>Home</Conteudo>
+        <div>
+            <div>
+            <Header/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            </div>
+            <div><h1 className="titulo">Melhores quartos da temporada</h1></div>
+        </div>
         </>
     )
 }

@@ -1,13 +1,26 @@
-import React, {useState} from 'react';
+import React  from 'react';
 import './index.css';
-import './menu.css';
+import { useHistory } from 'react-router-dom';
+
 
 const Header: React.FC = () => {
 
     let imgnome = 'https://media.discordapp.net/attachments/704458768519528532/897997999530197052/of__4_-removebg-preview_5.png?width=512&height=205'
     let imglogo = "https://media.discordapp.net/attachments/704458768519528532/897998031067181056/image_49.png"
 
-    
+    const history = useHistory()
+    function ChamaReserva () {
+        history.push('/Reserva')
+    }
+    function ChamaHistorico () {
+        history.push('/Historico')
+    }
+    function ChamaPerfil () {
+        history.push('/Perfil')
+    }
+    function ChamaInicio () {
+        history.push('/')
+    }
     return (
         <div className="head">
 
@@ -17,19 +30,16 @@ const Header: React.FC = () => {
             <nav id="menu-s">
         <ul>
             <li>
-                <a href="#Home">Inicio</a>
+                <a onClick={ChamaInicio}>Inicio</a>
             </li>
             <li>
-                <a href="#Historico">Historico</a>
+                <a onClick={ChamaHistorico}>Historico</a>
             </li>
             <li>
-                <a href="#Visitados">Disney</a>
+                <a onClick={ChamaReserva}>Reserva</a>
             </li>
             <li>
-                <a href="#HBO">HBO</a>
-            </li>
-            <li>
-                <a href="#Netflix">Netfix</a>
+                <a onClick={ChamaPerfil}>Perfil</a>
             </li>
         </ul>
     </nav>

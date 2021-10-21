@@ -1,8 +1,8 @@
 import React from 'react';
 import Header from '../../components/Header';
-import './perfil.css';
+import './reserva.css';
 
-const Perfil: React.FC = () => {
+const Reserva: React.FC = () => {
 
     return (
         <>
@@ -14,10 +14,10 @@ const Perfil: React.FC = () => {
             <br/>
             <br/>
             </div>
-            <div><h1 className="titulo">Meu perfil</h1></div>
+            <div><h1 className="titulo">Minhas reservas</h1></div>
         </div>
         </>
     )
 }
  
-export default Perfil;
+export default Reserva;
