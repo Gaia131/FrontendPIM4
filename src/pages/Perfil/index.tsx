@@ -9,12 +9,8 @@ const Perfil: React.FC = () => {
         <div>
             <div>
             <Header/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
             </div>
-            <div><h1 className="titulo">Meu perfil</h1></div>
+            <div><h1 className="t3">Meu perfil</h1></div>
         </div>
         </>
     )

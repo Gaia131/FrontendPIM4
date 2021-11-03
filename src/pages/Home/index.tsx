@@ -3,9 +3,7 @@ import Header from '../../components/Header';
 import './home.css'
 import ImageSlider from '../../components/Galeria/ImageSlider';
 import { SliderData } from '../../components/Galeria/SliderData';
-
-
-
+import Check from '../../components/check'
 
 
 const Home: React.FC = () => {
@@ -16,9 +14,11 @@ const Home: React.FC = () => {
             <div>
             <Header/>
             </div>
-            <div><h1 className="titulo">Melhores quartos da temporada</h1></div>
+            <div className="t1"><h1>Melhores quartos da temporada</h1></div>
             <br/>
             <div><ImageSlider slides={SliderData} /></div>
+            <br/>
+            <div><Check/></div>
             <br/>
             <br/>
         </div>

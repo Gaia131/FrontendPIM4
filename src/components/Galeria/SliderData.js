@@ -1,7 +1,7 @@
 export const SliderData = [
     {
       image:
-      'https://media.discordapp.net/attachments/892218754354786354/901134156015210536/q1.png?width=761&height=406'
+      'https://media.discordapp.net/attachments/892218754354786354/902704084962914414/image_24.png?width=775&height=406'
     },
     {
       image:

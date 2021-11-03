@@ -8,12 +8,8 @@ const Historico: React.FC = () => {
         <div>
             <div>
             <Header/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
             </div>
-            <div><h1 className="titulo">Histórico de reservas</h1></div>
+            <div><h1 className="t2">Histórico de reservas</h1></div>
         </div>
         </>
     )

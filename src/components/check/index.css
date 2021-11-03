@@ -1,0 +1,36 @@
+.dia1{
+    margin-left: 330px;
+    margin-right: 5px;
+}
+.mes1{
+    margin-right: 5px;
+}
+.ano1{
+    margin-right: 265px;
+}
+.dia2{
+    margin-right: 5px;
+}
+.mes2{
+    margin-right: 5px;
+}
+.ano2{
+    margin-right: 5px;
+}
+
+#line ul{
+    list-style-type: none;
+    font-size: 25pt;
+}
+
+#line ul li{
+    display: inline;
+}
+
+#line ul li a{
+    display: inline-block;
+    margin-top: 580px;
+    margin-left: 350px;
+}
+
+

@@ -9,12 +9,8 @@ const Reserva: React.FC = () => {
         <div>
             <div>
             <Header/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
             </div>
-            <div><h1 className="titulo">Minhas reservas</h1></div>
+            <div><h1 className="t4">Minhas reservas</h1></div>
         </div>
         </>
     )
