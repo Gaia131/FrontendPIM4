@@ -1,0 +1,19 @@
+.nome{
+    width: 400px;
+    float:left;
+}
+.cpf{
+    width: 150px;
+}
+.tel{
+    width: 150px;
+}
+.email{
+    width: 400px;
+}
+.senha{
+    width: 200px;
+}
+.titulo{
+    text-align: center;
+}
