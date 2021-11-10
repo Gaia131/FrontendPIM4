@@ -9,6 +9,7 @@ import Pagamento from './pages/Pagamento';
 import Finalizar from './pages/Finalizar';
 import Cadastro from './pages/Cadastro';
 
+
  
 const Routes: React.FC = () => {
     return(
