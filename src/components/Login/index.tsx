@@ -1,20 +1,46 @@
-import React from 'react';
-import { useHistory } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Button } from 'react-bootstrap';
+import { useHistory, useParams } from 'react-router-dom'
+import api from '../../services/api';
+import moment from 'moment';
 import './login.css'
+
+interface ITask{
+    email: string;
+    senha: string;
+}
+
 
 
 const Login: React.FC = () => {
+
+
+
+    let imglogo = "https://media.discordapp.net/attachments/892218754354786354/908083743456125008/logo2.png"
 
     const history = useHistory()
     function ChamaCadastro () {
         history.push('/Cadastro')
     }
+    const { email, senha } = useParams<{ email: string, senha: string }>()
+    const [cliente, setTask] = useState<ITask>()
+ 
+    async function findClient(){
+        const response = await api.get(`/cliente/${email}${senha}`)
+        console.log(response)
+    }
+ 
+    useEffect(() => {
+        findClient()
+    }, [email, senha])
+
 
     return(
         <>
             <div className="sidenav">
                     <div className="login-main-text">
                         <h2>Bem vindo!</h2>
+                        <br/>
                         <p>
                         
                         Somos o Hotel Mar&Sol, trabalhamos desde 1998
@@ -26,20 +52,21 @@ const Login: React.FC = () => {
                         </p>
                     </div>
                 </div>
+                <img className="logo" src={imglogo} alt="Logo" />
                 <div className="main">
                     <div className="col-md-6 col-sm-12">
                         <div className="login-form">
                         <form>
                             <div className="form-group">
-                                <label>Email</label>
-                                <input type="text" className="form-control" placeholder="User Name"/>
+                                <label className="t1">Email</label>
+                                <input type="text" className="form-control" placeholder="exemplo@email.com"/>
+                                <label className="t1">Senha</label>
+                                <input type="password" className="form-control" placeholder="Digite sua senha"/>
                             </div>
-                            <div className="form-group">
-                                <label>Senha</label>
-                                <input type="password" className="form-control" placeholder="Password"/>
-                            </div>
-                            <button type="button" className ="btn btn-primary">Entrar</button>
-                            <button type="button" className ="btn btn-warning" onClick={ChamaCadastro}>Cadastrar</button>
+                            <br/>
+                            <button type="button" className ="btn btn-primary" onClick={findClient}>Entrar</button>
+                            <br/>
+                            <a className="a" onClick={ChamaCadastro}>Criar conta</a>
                         </form>
                         </div>
                     </div>

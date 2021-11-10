@@ -24,19 +24,9 @@ body {
     .sidenav {padding-top: 15px;}
 }
 
-@media screen and (max-width: 450px) {
-    .login-form{
-        margin-top: 10%;
-    }
-
-    .register-form{
-        margin-top: 10%;
-    }
-}
-
 @media screen and (min-width: 768px){
     .main{
-        margin-left: 40%; 
+        margin-left: 52%; 
     }
 
     .sidenav{
@@ -48,15 +38,15 @@ body {
     }
 
     .login-form{
-        margin-top: 80%;
+        margin-top: 10%;
+        margin-left: 5px;
+        
     }
 
     .register-form{
         margin-top: 20%;
     }
 }
-
-
 .login-main-text{
     margin-top: 5%;
     padding: 60px;
@@ -76,4 +66,31 @@ body {
 .btn-black{
     background-color: #000 !important;
     color: #fff;
+}
+.a{
+    color: #f2a71b;
+    cursor: pointer;
+    font-size: 14pt;
+    font-weight: bold;
+    margin-left: 136px;
+
+}
+.a:hover{
+    color: #f2a71b;
+}
+.btn-primary{
+    font-size: 15pt;
+}
+.logo{
+    margin-top: 5px;
+    width: 600px;
+    margin-left: 600px;
+}
+.form-control{
+    border: 2px solid #244CA0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.t1{
+    font-size: 18pt;
 }
