@@ -1,19 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+form{
+    margin-left: 30%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18pt;
+}
 .nome{
     width: 400px;
-    float:left;
 }
 .cpf{
     width: 150px;
 }
-.tel{
+.telefone{
     width: 150px;
+    margin-left: 40px;
 }
 .email{
     width: 400px;
 }
 .senha{
     width: 200px;
+    margin-left: 20px;
 }
 .titulo{
+    margin-left: 350px;
+}
+.lsenha{
+    margin-left: 20px;
+}
+.ltelefone{
+    margin-left: 0px;
+}
+.botoes{
     text-align: center;
+    margin-left: 200px;
 }
