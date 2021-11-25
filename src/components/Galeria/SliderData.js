@@ -1,34 +1,34 @@
 export const SliderData = [
     {
       image:
-      'https://media.discordapp.net/attachments/892218754354786354/902704084962914414/image_24.png?width=775&height=406'
+      'https://media.discordapp.net/attachments/892218754354786354/913151665778089994/Group_3.png?width=451&height=406'
     },
     {
       image:
-      'https://media.discordapp.net/attachments/892218754354786354/901260515198795797/hostel-britanico-suite-1024x683.png?width=609&height=406'
+      'https://media.discordapp.net/attachments/892218754354786354/913151666155552768/Group_4.png?width=451&height=406'
     },
     {
       image:
-      'https://media.discordapp.net/attachments/892218754354786354/901260873698541619/quartos-com-capacidade.png'
+      'https://media.discordapp.net/attachments/892218754354786354/913151666948300850/Group_6.png?width=447&height=406'
     },
     {
       image:
-      'https://media.discordapp.net/attachments/892218754354786354/901257884946530364/Casal-cama-solteiro-1024x683.png?width=609&height=406'
+      'https://media.discordapp.net/attachments/892218754354786354/913151666541436958/Group_5.png?width=451&height=406'
     },
     {
       image:
-      'https://media.discordapp.net/attachments/892218754354786354/901259981381304340/bavaria-quarto-familia-2-1024x683.png?width=609&height=406'
+      'https://media.discordapp.net/attachments/892218754354786354/913151662816890921/Group_8.png?width=451&height=406'
     },
     {
         image:
-      'https://media.discordapp.net/attachments/892218754354786354/901262936037801984/286571938.png?width=609&height=406'
+        'https://media.discordapp.net/attachments/892218754354786354/913151667216711700/Group_7.png?width=451&height=406'
     },
     {
         image:
-      'https://media.discordapp.net/attachments/892218754354786354/901263499592859749/2.png?width=625&height=406'
+        'https://media.discordapp.net/attachments/892218754354786354/913151665367052319/Group_10.png?width=451&height=406'
     },
     {
         image:
-        'https://media.discordapp.net/attachments/892218754354786354/901271611410350100/banheira-no-quarto-1.png?width=611&height=406'
+        'https://media.discordapp.net/attachments/892218754354786354/913151664280698930/Group_9.png?width=453&height=406'
     }
   ];

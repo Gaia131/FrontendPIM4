@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../../components/Header';
 import './historico.css';
+//import Login from '../../components/google';
 
 const Historico: React.FC = () => {
     return (
@@ -10,6 +11,10 @@ const Historico: React.FC = () => {
             <Header/>
             </div>
             <div><h1 className="t2">Histórico de reservas</h1></div>
+            <br/>
+            <br/>
+            <br/>
+            
         </div>
         </>
     )

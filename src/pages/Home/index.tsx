@@ -41,8 +41,7 @@ const Home: React.FC = () => {
             <div><Check/></div>
             <br/>
             <br/>
-            <button type="button" className ="btn btn-primary" onClick={ChamaPagamento}>Selecionar</button>
-            <button type="button" className ="btn btn-warning" onClick={ChamaFinalizar}>Ver detalhes</button>
+            <button type="button" className ="btn btn-warning" onClick={ChamaPagamento}>Selecionar</button>
             <br/>
             <br/>
             <br/>

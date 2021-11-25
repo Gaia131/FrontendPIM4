@@ -7,19 +7,19 @@
   }
   
   .image {
-    width: 900px;
-    height: 500px;
+    width: 670px;
+    height: 480px;
     border-radius: 10px;
-    margin-left: 20%;
+    margin-left: 41.5%;
 
   }
   
   .right-arrow {
     position: relative;
     top: 3%;
-    left: 119%;
+    left: 145%;
     font-size: 3rem;
-    color: white;
+    color:#244ca0;
     z-index: 10;
     cursor: pointer;
     user-select: none;
@@ -28,9 +28,9 @@
   .left-arrow {
     position: absolute;
     top: 49.1%;
-    left: 22%;
+    left: 39%;
     font-size: 3rem;
-    color: white;
+    color: #244ca0;
     z-index: 10;
     cursor: pointer;
     user-select: none;
