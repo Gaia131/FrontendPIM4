@@ -72,7 +72,7 @@ body {
     cursor: pointer;
     font-size: 14pt;
     font-weight: bold;
-    margin-left: 136px;
+    margin-left: 97px;
 
 }
 .a:hover{
@@ -93,4 +93,7 @@ body {
 }
 .t1{
     font-size: 18pt;
+}
+#entrar{
+    margin-left: 100px;
 }

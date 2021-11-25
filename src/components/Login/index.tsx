@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Button } from 'react-bootstrap';
 import { useHistory, useParams } from 'react-router-dom'
 import api from '../../services/api';
 import moment from 'moment';
@@ -64,7 +63,7 @@ const Login: React.FC = () => {
                                 <input type="password" className="form-control" placeholder="Digite sua senha"/>
                             </div>
                             <br/>
-                            <button type="button" className ="btn btn-primary" onClick={findClient}>Entrar</button>
+                            <button id="entrar" type="button" className ="btn btn-primary" onClick={findClient}>Entrar</button>
                             <br/>
                             <a className="a" onClick={ChamaCadastro}>Criar conta</a>
                         </form>

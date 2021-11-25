@@ -4,7 +4,6 @@ import './home.css'
 import ImageSlider from '../../components/Galeria/ImageSlider';
 import { SliderData } from '../../components/Galeria/SliderData';
 import Check from '../../components/check'
-import { Button } from 'react-bootstrap'
 import { useHistory } from 'react-router-dom';
 import api from '../../services/api'
 
@@ -14,9 +13,6 @@ const Home: React.FC = () => {
     const history = useHistory()
     function ChamaPagamento () {
         history.push('/Pagamento')
-    }
-    function ChamaFinalizar () {
-        history.push('/Finalizar')
     }
 
     useEffect(() => {
